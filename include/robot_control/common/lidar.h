@@ -3,7 +3,7 @@
 
 #include <vector>
 
-#include <rplidar/rplidar.h>
+#include "../../rplidar/rplidar.h"
 
 #include "utils.h"
 

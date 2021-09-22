@@ -22,6 +22,7 @@ float feedbackControl(float dist_to_wall, float setpoint)
 {
   float vel = 0; 
   float control_mag = dist_to_wall - setpoint;
+
   if (control_mag < 0) {
     vel = -10;
   }
